@@ -6,7 +6,7 @@ pipeline {
         maven 'maven3'
     }
     stages {     
-        
+           
         stage('Compile') {
             steps {
                sh 'mvn compile'  
